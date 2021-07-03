@@ -1,0 +1,22 @@
+<root>
+	<author>Paul McCartney</author>
+	<album>Tug of war</album>
+	<planet>
+		<name>Venus</name>
+		<mass>1290</mass>
+		<country>
+			<name>Spain</name>
+		</country>
+	</planet>
+	<month>enero</month>
+	<month>febrero</month>
+	<month>marzo</month>
+	<week>
+		<day>lunes</day>
+		<day>martes</day>
+		<day>miercoles</day>
+	</week>
+	<week>
+		<day>jueves</day>
+	</week>
+</root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi>
+	<string name="author" value="Paul McCartney" />
+	<string name="album" value="Tug of war" />
+	<int name="year" value="1982" />
+	<context name="planet">
+		<string name="name" value="Venus" />
+		<int name="mass" value="1290" />
+		<context name="country">
+			<string name="name" value="Spain"/>
+		</context>
+	</context>
+</jndi>

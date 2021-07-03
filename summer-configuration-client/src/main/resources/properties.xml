@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<client>
+		<Client>
+			<myString>enero</myString>
+			<myInt>120</myInt>
+			<myLong>120000</myLong>
+			<myDouble>1.2</myDouble>
+			<myDate>2014-08-11 12:13:14</myDate>
+			<beans>
+				<MyBean>
+					<name>paul</name>
+					<age>72</age>
+					<birth>1942-06-18</birth>
+				</MyBean>
+				<MyBean>
+					<name>john</name>
+					<age>74</age>
+					<birth>1940-19-09</birth>
+				</MyBean>
+			</beans>
+			<beanMap>
+				<entry>
+					<key>macca</key>
+					<value>
+						<MyBean>
+							<name>paul</name>
+							<age>72</age>
+							<birth>1942-06-18</birth>
+						</MyBean>
+					</value>
+				</entry>
+				<entry>
+					<key>lenny</key>
+					<value>
+						<MyBean>
+							<name>john</name>
+							<age>74</age>
+							<birth>1940-19-09</birth>
+						</MyBean>
+					</value>
+				</entry>
+			</beanMap>
+		</Client>
+	</client>
+</properties>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi>
+  <string name="ABC" value="A.B.C"/>
+  <int name="TEN" value="10"/>
+  <boolean name="yes" value="y"/>
+  <double name="normal" value="98.6"/>
+  <long name="THOUSAND" value="1000"/>
+  
+  <object name="BEAN1" class="jndi.examples.MyJavaBean">
+    <int value="1"/>    
+    <string value="This is bean one"/>
+    <string name="anotherString" value="This is another string"/>
+  </object>
+  
+  <context name="ONE">
+    <string  name="123" value="1.2.3"/> 
+    <int name="100" value="100"/>
+    
+    <object name="BEAN2" class="jndi.examples.MyJavaBean">
+      <int value="2"/>
+      <string value="This is bean two"/>
+    </object>
+  </context>
+  
+  <object name="BEAN3" class="jndi.examples.MyJavaBean">
+    <int value="3"/>    
+    <string value="This is bean three"/>
+    
+    <object name="nestedBean" class="jndi.examples.MyJavaBean">
+      <int value="4"/>
+      <string value="This is bean four"/>
+    </object>
+  </object>
+  
+  <reference name="BEAN-REF" 
+    class="jndi.examples.MyJavaBean" 
+    factoryClass="jndi.examples.BeanFactory">
+    <stringRefAddr addrType="integer" addr="125"/>
+    <stringRefAddr addrType="string" addr="This is my string"/>
+    <stringRefAddr addrType="anotherString" addr="This is my other string"/>
+  </reference>
+</jndi>

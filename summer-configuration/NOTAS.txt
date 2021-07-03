@@ -1,0 +1,19 @@
+Al compilar una variable de instancia final inicializada:
+	private final <type> var=<value>
+... el compilador genera lo siguiente:
+
+	private final <type> var;
+	
+	constructor()
+	{
+		this.var=<value>
+	}
+
+Y en bytecode, el contenido del constructor es así:
+	Invocación al superconstructor:
+		ALOAD_0
+		INVOKESPECIAL ...
+	Inicializar cada variable de instancia:
+		ALOAD_0
+		LDC <p> (ref=<value>)
+		PUTFIELD <a> <b> (field=<var>)

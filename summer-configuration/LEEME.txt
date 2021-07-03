@@ -1,0 +1,12 @@
+Pendiente por hacer:
+
+-Nuevo diseño de proveedores: Un sólo proveedor (singleton) con varios adaptadores simultáneos: Uno para ficheros .properties, otro para ficheros Xml, otro para System.properties, y otro para JNDI.
+-Un fichero de configuración de políticas, para relacionar fuentes de propiedades con paquetes accesibles:
+
+mi_fichero_abc.properties	paquete com.skn.abc.*
+mi_fichero_def.properties	paquetes es.sama.def y mi.sama.util.def 
+mi_fichero_ghi.xml			clase demo.MyClass
+mi_fichero1.properties, mi_fichero2.properties y mi_fichero3.xml	paquetes a, b y c.*
+ficheros_por_Defecto	*
+
+Las fuentes podrán ser combinaciones de rutas absolutas, relativas, URLs y JNDIs.

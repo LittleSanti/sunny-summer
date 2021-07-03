@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.samajackun.sunny-summer</groupId>
+	<artifactId>sunny-summer</artifactId>
+	<version>1.0.1-SNAPSHOT</version>
+	<name>sunny-summer</name>
+	<packaging>pom</packaging>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.junit.vintage</groupId>
+				<artifactId>junit-vintage-engine</artifactId>
+				<version>5.7.2</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>commons-logging</groupId>
+				<artifactId>commons-logging</artifactId>
+				<version>1.2</version>
+			</dependency>
+			<dependency>
+				<groupId>jakarta.servlet</groupId>
+				<artifactId>jakarta.servlet-api</artifactId>
+				<version>5.0.0</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.samajackun.sunny-summer</groupId>
+				<artifactId>sunny-summer-i18n</artifactId>
+				<version>1.0.1-SNAPSHOT</version>
+			</dependency>
+			<!-- <dependency> <groupId>com.samajackun.sunny-summer</groupId> <artifactId>summer-core</artifactId> 
+				<version>0.0.1-SNAPSHOT</version> </dependency> -->
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<compilerVersion>1.15</compilerVersion>
+					<source>1.15</source>
+					<target>15</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<!-- <modules> <module>summer-core</module> <module>summer-configuration</module> 
+		<module>summer-module</module> <module>summer-shared</module> </modules> -->
+	<modules>
+		<module>sunny-summer-i18n</module>
+		<module>sunny-summer-web</module>
+	</modules>
+</project>

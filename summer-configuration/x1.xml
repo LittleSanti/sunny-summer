@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--<?xml-stylesheet type="text/xsl" href=""?>-->
+<root>
+	<demo>
+		<Client>
+			<myString>enero</myString>
+			<myInt>120</myInt>
+			<myLong>1200</myLong>
+			<myDate>2014-08-10 12:13:14</myDate>
+
+			<beans>
+				<bean>
+					
+				</bean>
+			</beans>
+		</Client>
+	</demo>
+</root>

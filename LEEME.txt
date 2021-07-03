@@ -1,0 +1,1 @@
+Arquitectura para JEE: parametrización a varios niveles, i18n por bundles, transacciones clientes distribuídas.

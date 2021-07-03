@@ -1,0 +1,8 @@
+x:\proyectos\SunnySummer\summer-configuration-client\src\main\java\client\Client.java
+x:\proyectos\SunnySummer\summer-configuration-client\src\main\java\client\Client2.java
+x:\proyectos\SunnySummer\summer-configuration-client\src\main\java\client\MyAbsoluteBean.java
+x:\proyectos\SunnySummer\summer-configuration-client\src\main\java\client\MyBean.java
+x:\proyectos\SunnySummer\summer-configuration-client\src\main\java\client\MyComponent.java
+x:\proyectos\SunnySummer\summer-configuration-client\src\main\java\client\MyFactory.java
+x:\proyectos\SunnySummer\summer-configuration-client\src\main\java\client\MyInterface.java
+x:\proyectos\SunnySummer\summer-configuration-client\src\main\java\client\MyReusableBean.java
